@@ -1,0 +1,73 @@
+body{
+    margin: 10px;
+    padding:px;
+    background-color:black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+}
+
+#heading{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+    font-size: 70px;
+}
+
+#btn{
+    background-color: #2374AB;
+    text-align: center;
+    width: 50%;
+    font-family: "Sacramento", cursive;
+    border-radius: 10px;
+    margin-left: 95px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#btn:hover{
+    background-color: grey ;
+}
+.gameboard{
+    display: grid;
+   grid-template-columns: auto auto auto ;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   margin: 10px 0 20px;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: sans-serif;
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+  color:white;
+  border-right: 2px solid white;
+  border-bottom:2px solid white ;
+}
+
+.box:nth-child(3n){
+    border-right: none;
+}
+
+.box:nth-child(6) ~ .box{
+  border-bottom: none;
+}
+
+#winner {
+    visibility: hidden;
+    font-size: 50px;
+    font-family: "sacramento", cursive;
+    color: orange;
+}
