@@ -11,14 +11,14 @@ body{
    display: grid;
    align-items: center;
    justify-content: center;
-   background-color: white;
+   background-color: black;
 }
 
 #heading{
     text-align: center;
-    color: blue;
+    color: green;
     text-decoration: underline;
-    font-size: 70px;
+    font-size: 75px;
 }
 
 #btn{
