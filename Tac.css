@@ -11,12 +11,12 @@ body{
    display: grid;
    align-items: center;
    justify-content: center;
-   background-color: black;
+   background-color: white;
 }
 
 #heading{
     text-align: center;
-    color: green;
+    color: blue;
     text-decoration: underline;
     font-size: 70px;
 }
