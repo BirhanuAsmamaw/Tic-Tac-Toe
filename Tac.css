@@ -1,6 +1,6 @@
 body{
     margin: 10px;
-    padding:px;
+    padding:0px;
     background-color:black;
     display: grid;
     justify-content: center;
@@ -12,6 +12,7 @@ body{
    align-items: center;
    justify-content: center;
    background-color: black;
+   padding: 0px;
 }
 
 #heading{
