@@ -38,7 +38,7 @@ function AreaClicked(i){
           winner.innerText = `It's Tie`
           finished = true;
         }
-
+          
         if (currentPlayer == sign_2){
           currentPlayer = sign_1
         } 
@@ -76,7 +76,7 @@ function restart() {
     box.innerText = ''
   })
    
-   winner.style.visibility =  "hidden";
+   winner.style.visibility = "hidden";
    currentPlayer =  sign_2
 }
 
