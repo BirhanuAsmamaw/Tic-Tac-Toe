@@ -23,8 +23,6 @@ function AreaClicked(i){
         work_area[id] = currentPlayer
         i.target.innerText = currentPlayer   /*  ???????? */
         
-
-
         if(playerHasWon() !==false){
           winner.style.visibility = "visible";
           winner.innerText = `${currentPlayer} is The Winner`
