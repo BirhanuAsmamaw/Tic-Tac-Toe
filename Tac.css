@@ -63,7 +63,6 @@ body{
 .box:nth-child(6) ~ .box{
   border-bottom: none;
 }
-
 #winner {
     visibility: hidden;
     font-size: 50px;
