@@ -53,7 +53,6 @@ body{
   border-right: 2px solid white;
   border-bottom:2px solid white ;
 }
-
 .box:nth-child(3n){
     border-right: none;
 }
