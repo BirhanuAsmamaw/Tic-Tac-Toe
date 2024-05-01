@@ -30,7 +30,6 @@ function AreaClicked(i){
         } else {
           counter++;
         } 
-        
         if (counter === 9){
           winner.style.visibility = "visible";
           winner.innerText = `It's Tie`
