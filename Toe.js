@@ -60,7 +60,6 @@ function playerHasWon() {
      return false
 }
 
-
 btn.addEventListener('click', restart)
 
 function restart() {
