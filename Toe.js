@@ -64,7 +64,6 @@ btn.addEventListener('click', restart)
 
 function restart() {
   work_area.fill(null)
-
   counter = 0;
   finished = false;
 
