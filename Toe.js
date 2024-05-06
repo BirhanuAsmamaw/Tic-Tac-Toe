@@ -14,7 +14,6 @@ let counter = 0;
 const start = () => {
     boxes.forEach(box => box.addEventListener('click', AreaClicked) )
 }
-
 function AreaClicked(i){
       const id = i.target.id
       if (finished) return;
