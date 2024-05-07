@@ -10,7 +10,6 @@ let winner = document.getElementById("winner")
 
 let finished = false;
 let counter = 0;
-
 const start = () => {
     boxes.forEach(box => box.addEventListener('click', AreaClicked) )
 }
