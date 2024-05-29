@@ -16,7 +16,7 @@ const start = () => {
 function AreaClicked(i){
       const id = i.target.id
       if (finished) return;
-
+    
       if (! work_area[id]) {                        /* !work_area[id] it mean if work area is null or has not value */
         work_area[id] = currentPlayer
         i.target.innerText = currentPlayer   /*  ???????? */
