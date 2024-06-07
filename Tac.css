@@ -6,7 +6,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .main{
    display: grid; 
    align-items: center;
