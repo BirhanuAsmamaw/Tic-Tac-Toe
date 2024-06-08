@@ -72,5 +72,4 @@ function restart() {
    winner.style.visibility = "hidden";
    currentPlayer =  sign_2
 }
-
 start()
